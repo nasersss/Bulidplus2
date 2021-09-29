@@ -202,7 +202,11 @@ height: 70px;
    	margin:0;
    }
 }
-
+@media(max-width:560px){
+   .header{
+       padding-right: 30px;
+   }
+}
 
 /*******************************/
 /********** About CSS **********/
@@ -395,6 +399,34 @@ box-shadow: 0 0 3px #e4dede;;
     color: #35537D;
 }
 }
+@media (max-width:500.98px){
+    
+    .fact {
+      
+        margin-left: 10px !important;
+        margin-right: 10px;
+    }
+    .fact {
+      
+        margin-bottom: 5px !important; 
+
+    }
+    .fact h2::before{
+        position: absolute;
+        right: 80%;
+        content: '+';
+        font-size: 30px;
+        color: #35537D;
+    }
+    .fact .year::before{
+        position: absolute;
+        right: 71%;
+        content: '+';
+        font-size: 30px;
+        color: #35537D;
+    }
+
+}
 
 
 /*******************************/
@@ -473,6 +505,24 @@ box-shadow: 0 0 3px #e4dede;;
 .service .card h5{
     clear: both;
     text-align: center;  
+}
+@media (max-width:500.98px){
+    
+    .service {
+      
+        margin-left: 10px !important;
+        margin-right: 10px;
+    }
+    .service {
+      
+        margin-bottom: 5px !important; 
+
+    }
+    .service .innerCard .card-body{
+        width: 300px;
+        margin-bottom: 15px;
+    }
+
 }
 
 /*******************************/
@@ -599,6 +649,21 @@ box-shadow: 0 0 3px #e4dede;;
     color: #ffffff;
     background: #35537D;
 }
+
+@media (max-width:500.98px){
+    .portfolio {
+      
+        margin-left: 10px !important;
+        margin-right: 10px;
+    }
+    .portfolio {
+      
+        margin-bottom: 5px !important; 
+
+    }
+
+}
+
 
 /*******************************/
 /********* Feature CSS *********/
@@ -813,6 +878,28 @@ box-shadow: 0 0 3px #e4dede;;
     width:150px;
     height:150px;
     object-fit:contain;
+}
+
+@media (max-width:500.98px){
+    
+    .partners {
+      
+        margin-left: 10px !important;
+        margin-right: 10px;
+    }
+    .partners {
+      
+        margin-bottom: 5px !important; 
+
+    }
+    .partners .part .item{
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        min-height: 150px;
+        line-height: 150px;
+    }
+
 }
 
 /*******************************/
