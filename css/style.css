@@ -519,6 +519,8 @@ box-shadow: 0 0 3px #e4dede;;
 
     }
     .service .innerCard .card-body{
+	padding-left:3px;
+	padding-right:3px;   
         width: 270px;
         margin-bottom: 15px;
     }
